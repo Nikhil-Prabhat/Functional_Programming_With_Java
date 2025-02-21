@@ -12,7 +12,7 @@ Any interface with a SAM(Single Abstract Method) is a functional interface, and 
 Note that Java 8’s default methods are not abstract and do not count; a functional interface may still have multiple default methods.
 
 ## Higer Order Function
-A higher order function is a function which returns a function.
+A higher order function is a function which returns a function or accepts a function as a parameter.
 
 ### Imp points
 Java Streams are lazy. It means unless the terminal functions are executed, the functions won't be executed.
